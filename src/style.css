@@ -1,5 +1,128 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
+    background: green;
+}
+
+.centered{margin-left: auto; margin-right: auto; width: 300px;}
+a.button {
+    display: block;
+    width: 300px;
+    height: 50px;
+    background: rgb(243, 160, 86);
+    font-family: Arial;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    color: rgb(36, 36, 36);
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px black;
+    margin-top: 20px;
+
+}
+
+a.button:hover {
+    background: rgb(240, 155, 35);
+}
+
+.card1 {
+    width: 300px;
+    height: 440px;
+    border-radius: 15px;
     background: white;
+    box-shadow: 3px 3px 7px rgb(33, 33, 33);
+    position: relative;
+
+}
+
+.card1 p{
+    font: 150px/440px Arial, serif;
+    text-align: center;
+
+}
+
+div.suit-hearts:before {
+    content: "♥";
+    font-size: 90px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: red;
+
+}
+
+div.suit-hearts:after {
+    content: "♥";
+    font-size: 90px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: red;
+    transform: rotate(180deg);
+
+}
+
+div.suit-diamonds:before {
+    content: "♦";
+    font-size: 90px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: red;
+
+}
+
+div.suit-diamonds:after {
+    content: "♦";
+    font-size: 90px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: red;
+    transform: rotate(180deg);
+
+}
+
+div.suit-spades:before {
+    content: "♠";
+    font-size: 90px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: rgb(0, 0, 0);
+
+}
+
+div.suit-spades:after {
+    content: "♠";
+    font-size: 90px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: rgb(0, 0, 0);
+    transform: rotate(180deg);
+
+}
+
+div.suit-clubs:before {
+    content: "♣";
+    font-size: 90px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: rgb(0, 0, 0);
+
+}
+
+div.suit-clubs:after {
+    content: "♣";
+    font-size: 90px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: rgb(0, 0, 0);
+    transform: rotate(180deg);
+
 }
