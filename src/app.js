@@ -11,10 +11,11 @@ window.onload = function() {
   let suit = ["Hearts", "Diamonds", "Spades", "Clubs"];
   let randomCardNumber = Math.floor(Math.random() * cardNumber.length);
   let ramdomCardSuit = Math.floor(Math.random() * suit.length)
+  let finalSuit = suit[ramdomCardSuit]
 
 document.getElementById('cardcontent').innerHTML = cardNumber[randomCardNumber];
 document.getElementById('card').className = "";
-document.getElementById('card').classList.add("card");
+document.getElementById('card').classList.add("card1");
 document.getElementById('card').classList.add(getSuitClass(finalSuit));
 
 }

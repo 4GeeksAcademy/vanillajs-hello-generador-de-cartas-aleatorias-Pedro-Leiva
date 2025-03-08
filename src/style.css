@@ -57,8 +57,8 @@ div.suit-hearts:after {
     content: "♥";
     font-size: 90px;
     position: absolute;
-    top: 8px;
-    left: 20px;
+    bottom: 8px;
+    right: 20px;
     color: red;
     transform: rotate(180deg);
 
@@ -78,8 +78,8 @@ div.suit-diamonds:after {
     content: "♦";
     font-size: 90px;
     position: absolute;
-    top: 8px;
-    left: 20px;
+    bottom: 8px;
+    right: 20px;
     color: red;
     transform: rotate(180deg);
 
@@ -99,8 +99,8 @@ div.suit-spades:after {
     content: "♠";
     font-size: 90px;
     position: absolute;
-    top: 8px;
-    left: 20px;
+    bottom: 8px;
+    right: 20px;
     color: rgb(0, 0, 0);
     transform: rotate(180deg);
 
@@ -120,8 +120,8 @@ div.suit-clubs:after {
     content: "♣";
     font-size: 90px;
     position: absolute;
-    top: 8px;
-    left: 20px;
+    bottom: 8px;
+    right: 20px;
     color: rgb(0, 0, 0);
     transform: rotate(180deg);
 
